@@ -25,8 +25,12 @@
 int main(){
     int num1 = 12 % 4;
     int num2 = 180/8;
-    printf("%d", num1);
-    printf("%d", num2);
-
-return 0;
+    printf("\n%d", num1);
+    printf("\n%d", num2);
+    return 0;
 }
+// int main(){
+// int x = 3;
+// int y = 20;
+// int result
+// }
