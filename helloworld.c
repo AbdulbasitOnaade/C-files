@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 // int main()
 // {
 //     int age;
@@ -22,15 +23,24 @@
 //     return 0;
 // }
 
-int main(){
-    int num1 = 12 % 4;
-    int num2 = 180/8;
-    printf("\n%d", num1);
-    printf("\n%d", num2);
-    return 0;
-}
 // int main(){
-// int x = 3;
-// int y = 20;
-// int result
+//     int num1 = 12 % 4;
+//     int num2 = 180/8;
+//     printf("\n%d", num1);
+//     printf("\n%d", num2);
+//     return 0;
 // }
+int main(){
+int x;
+int y;
+int result;
+printf("\nEnter num1:");
+scanf("%d", &x);
+
+printf("\nEnter num2:");
+scanf("%d", &y);
+result = x+y;
+printf("\nSum of 2 numbers: %d", result);
+
+return 0;
+}
