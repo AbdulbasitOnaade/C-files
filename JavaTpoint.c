@@ -28,4 +28,6 @@ int main()
     }
     printf("\nSum of the ascii value of a string is: %d", sum);
     return 0;
+
+
 }
