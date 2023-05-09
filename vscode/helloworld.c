@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "limits.h"
+// #include "limits.h"
 
 /*int main()
 {
@@ -23,7 +23,7 @@
     return 0;
 }*/
 
-int main()
+/*int main()
 {
     int age;
     printf("\nEnter your age: ");
@@ -44,8 +44,7 @@ int main()
     default:
         printf("Enter a valid age number");
     }
-}
-
+}*/
 // int main(){
 //     int num1 = 12 % 4;
 //     int num2 = 180/8;
@@ -68,3 +67,57 @@ printf("\nSum of 2 numbers: %d", result);
 
 return 0;
 }*/
+
+int main()
+{
+    char operator;
+    double num1;
+    double num2;
+    double result;
+
+    printf("\nEnter the preferred operator (+ - / *): ");
+    scanf("%c", &operator);
+    /* printf("\nEnter the number 1: ");
+     scanf("%lf", &num1);
+
+     printf("\nEnter the number 2: ");
+     scanf("%lf", &num2);*/
+
+    switch (operator)
+    {
+    case '+':
+        printf("\nEnter num1: ");
+        scanf("%lf", &num1);
+        printf("\nEnter num2: ");
+        scanf("%lf", &num2);
+        result = num1 + num2;
+        printf("\nSum of 2 numbers: %lf", result);
+        break;
+    case '-':
+        printf("\nEnter num1: ");
+        scanf("%lf", &num1);
+        printf("\nEnter num2: ");
+        scanf("%lf", &num2);
+        result = num1 - num2;
+        printf("\nSum of 2 numbers: %.0lf", result);
+        break;
+    case '/':
+        printf("\nEnter num1: ");
+        scanf("%lf", &num1);
+        printf("\nEnter num2: ");
+        scanf("%lf", &num2);
+        result = num1 / num2;
+        printf("\nSum of 2 numbers: %.0lf", result);
+        break;
+    case '*':
+        printf("\nEnter num1: ");
+        scanf("%lf", &num1);
+        printf("\nEnter num2: ");
+        scanf("%lf", &num2);
+        result = num1 * num2;
+       printf("\nSum of 2 numbers: %.0lf", result);
+        break;
+    default:
+        printf("%c is not a valid operator", operator);
+    }
+}
