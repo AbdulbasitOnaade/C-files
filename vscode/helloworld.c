@@ -91,7 +91,7 @@ int main()
         printf("\nEnter num2: ");
         scanf("%lf", &num2);
         result = num1 + num2;
-        printf("\nSum of 2 numbers: %lf", result);
+        printf("\nResult: %lf", result);
         break;
     case '-':
         printf("\nEnter num1: ");
@@ -99,7 +99,7 @@ int main()
         printf("\nEnter num2: ");
         scanf("%lf", &num2);
         result = num1 - num2;
-        printf("\nSum of 2 numbers: %.0lf", result);
+        printf("\nResult: %.0lf", result);
         break;
     case '/':
         printf("\nEnter num1: ");
@@ -107,7 +107,7 @@ int main()
         printf("\nEnter num2: ");
         scanf("%lf", &num2);
         result = num1 / num2;
-        printf("\nSum of 2 numbers: %.0lf", result);
+        printf("\nResult: %.2lf", result);
         break;
     case '*':
         printf("\nEnter num1: ");
@@ -115,7 +115,7 @@ int main()
         printf("\nEnter num2: ");
         scanf("%lf", &num2);
         result = num1 * num2;
-       printf("\nSum of 2 numbers: %.0lf", result);
+        printf("\nResult: %.0lf", result);
         break;
     default:
         printf("%c is not a valid operator", operator);
