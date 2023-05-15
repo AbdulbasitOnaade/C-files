@@ -121,15 +121,21 @@ return 0;
 //         printf("%c is not a valid operator", operator);
 //     }
 // }
-double square(double x)
+// double square(double x)
+// {
+//     double result = x * x;
+//     return result;
+// }
+int findMax(int x, int y)
 {
-    double result = x * x;
-    return result;
+    return (x > y) ? x : y;
 }
 
 int main()
 {
-    double x = square(3.14);
-    printf("%.2lf\n", x);
+    // double x = square(3.14);
+    int max = findMax(5, 9);
+    printf("%d\n", max);
+    // printf("%.2lf\n", x);
     return (0);
 }
