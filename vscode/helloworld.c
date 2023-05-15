@@ -68,56 +68,68 @@ printf("\nSum of 2 numbers: %d", result);
 return 0;
 }*/
 
+// int main()
+// {
+//     char operator;
+//     double num1;
+//     double num2;
+//     double result;
+
+//     printf("\nEnter the preferred operator (+ - / *): ");
+//     scanf("%c", &operator);
+//     /* printf("\nEnter the number 1: ");
+//      scanf("%lf", &num1);
+
+//      printf("\nEnter the number 2: ");
+//      scanf("%lf", &num2);*/
+
+//     switch (operator)
+//     {
+//     case '+':
+//         printf("\nEnter num1: ");
+//         scanf("%lf", &num1);
+//         printf("\nEnter num2: ");
+//         scanf("%lf", &num2);
+//         result = num1 + num2;
+//         printf("\nResult: %lf", result);
+//         break;
+//     case '-':
+//         printf("\nEnter num1: ");
+//         scanf("%lf", &num1);
+//         printf("\nEnter num2: ");
+//         scanf("%lf", &num2);
+//         result = num1 - num2;
+//         printf("\nResult: %.0lf", result);
+//         break;
+//     case '/':
+//         printf("\nEnter num1: ");
+//         scanf("%lf", &num1);
+//         printf("\nEnter num2: ");
+//         scanf("%lf", &num2);
+//         result = num1 / num2;
+//         printf("\nResult: %.2lf", result);
+//         break;
+//     case '*':
+//         printf("\nEnter num1: ");
+//         scanf("%lf", &num1);
+//         printf("\nEnter num2: ");
+//         scanf("%lf", &num2);
+//         result = num1 * num2;
+//         printf("\nResult: %.0lf", result);
+//         break;
+//     default:
+//         printf("%c is not a valid operator", operator);
+//     }
+// }
+double square(double x)
+{
+    double result = x * x;
+    return result;
+}
+
 int main()
 {
-    char operator;
-    double num1;
-    double num2;
-    double result;
-
-    printf("\nEnter the preferred operator (+ - / *): ");
-    scanf("%c", &operator);
-    /* printf("\nEnter the number 1: ");
-     scanf("%lf", &num1);
-
-     printf("\nEnter the number 2: ");
-     scanf("%lf", &num2);*/
-
-    switch (operator)
-    {
-    case '+':
-        printf("\nEnter num1: ");
-        scanf("%lf", &num1);
-        printf("\nEnter num2: ");
-        scanf("%lf", &num2);
-        result = num1 + num2;
-        printf("\nResult: %lf", result);
-        break;
-    case '-':
-        printf("\nEnter num1: ");
-        scanf("%lf", &num1);
-        printf("\nEnter num2: ");
-        scanf("%lf", &num2);
-        result = num1 - num2;
-        printf("\nResult: %.0lf", result);
-        break;
-    case '/':
-        printf("\nEnter num1: ");
-        scanf("%lf", &num1);
-        printf("\nEnter num2: ");
-        scanf("%lf", &num2);
-        result = num1 / num2;
-        printf("\nResult: %.2lf", result);
-        break;
-    case '*':
-        printf("\nEnter num1: ");
-        scanf("%lf", &num1);
-        printf("\nEnter num2: ");
-        scanf("%lf", &num2);
-        result = num1 * num2;
-        printf("\nResult: %.0lf", result);
-        break;
-    default:
-        printf("%c is not a valid operator", operator);
-    }
+    double x = square(3.14);
+    printf("%.2lf\n", x);
+    return (0);
 }
