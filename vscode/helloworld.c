@@ -67,7 +67,6 @@ printf("\nSum of 2 numbers: %d", result);
 
 return 0;
 }*/
-
 // int main()
 // {
 //     char operator;
@@ -79,7 +78,6 @@ return 0;
 //     scanf("%c", &operator);
 //     /* printf("\nEnter the number 1: ");
 //      scanf("%lf", &num1);
-
 //      printf("\nEnter the number 2: ");
 //      scanf("%lf", &num2);*/
 
