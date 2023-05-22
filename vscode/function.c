@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 // void greetings(char name[], double time)
 // {
 //     printf("\nHELLO Everyone!\n");
@@ -31,8 +29,6 @@ int main()
 {
     int max = findMax(3, 9);
     printf("%d\n", max);
-
-    
 
     return 0;
 }
