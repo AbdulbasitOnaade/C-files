@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-void greetings()
+void greetings(char name[], double time)
 {
-    printf("HELLO Everyone!\n");
+    printf("\nHELLO Everyone!\n");
+    printf("\nMy name is %s!", name);
+    printf("\nI arrived at exactly %.2lf am", time);
 }
 
 int main()
 {
-    greetings("\n");
-    greetings("\n");
-    greetings("\n");
+    char name[] = "Abdulbasit";
+    double time = 12.00;
+
+    greetings(name, time);
 }
