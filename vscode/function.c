@@ -16,18 +16,19 @@
 // }
 int findMax(int x, int y)
 {
-    if (x > y)
-    {
-        return x;
-    }
-    else
-    {
-        return y;
-    }
+    // if (x > y)
+    // {
+    //     return x;
+    // }
+    // else
+    // {
+    //     return y;
+    // }
+    return(x > y) ? x : y;
 }
 int main()
 {
-    int max = findMax(3, 9);
+    int max = findMax(20, 23);
     printf("%d\n", max);
 
     return 0;
