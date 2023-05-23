@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // void greetings(char name[], double time)
 // {
@@ -14,22 +15,28 @@
 
 //     greetings(name, time);
 // }
-int findMax(int x, int y)
-{
-    // if (x > y)
-    // {
-    //     return x;
-    // }
-    // else
-    // {
-    //     return y;
-    // }
-    return(x > y) ? x : y;
-}
+// int findMax(int x, int y)
+// {
+//     // if (x > y)
+//     // {
+//     //     return x;
+//     // }
+//     // else
+//     // {
+//     //     return y;
+//     // }
+//     return(x > y) ? x : y;
+// }
 int main()
 {
-    int max = findMax(20, 23);
-    printf("%d\n", max);
+    // int max = findMax(20, 23);
+    // printf("%d\n", max);
 
+    char string1[] = "Abdulbasit";
+    char string2[] = "Onaade";
+    // strlwr(string2);
+    // strupr(string2);
+    strcat(string1, string2);
+    printf("\n%s", string1, string2);
     return 0;
 }

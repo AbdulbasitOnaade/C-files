@@ -1,1 +1,1 @@
-int k;
+strcat(string1, string2);
