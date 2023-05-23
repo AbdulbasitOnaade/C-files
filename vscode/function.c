@@ -33,11 +33,31 @@ int main()
     // printf("%d\n", max);
 
     char string1[] = "Abdulbasit";
-    char string2[] = "Onaade";
+    char string2[] = "Abdulbasit";
     // strlwr(string2);
     // strupr(string2);
     // strcat(string1, string2);
-    strncat(string1, string2, 2);
-    printf("\n%s", string1, string2);
+    // strncat(string1, string2, 2);
+    // strcpy(string1, string2);
+    // strncpy(string1, string2, 3);
+
+    // strset(string1, '$');
+    // strnset(string1, '$', 3);
+    // strrev(string1);
+
+    // int result = strlen(string1);
+    // int result2 = strcmp(string1, string2);
+    int result3 = strncmp(string1, string2, 1);
+
+    // printf("%d\n", result3);
+
+    if (result3 == 0)
+    {
+        printf("\nThe string contains the same characters");
+    }
+    else
+    {
+        printf("\nThe string does not contains the same characters");
+    }
     return 0;
 }

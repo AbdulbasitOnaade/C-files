@@ -1,1 +1,2 @@
-strcat(string1, string2);
+strnset(string1, '$', 3);
+    // strrev(string1);
