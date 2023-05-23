@@ -33,7 +33,7 @@ int main()
     // printf("%d\n", max);
 
     char string1[] = "Abdulbasit";
-    char string2[] = "Abdulbasit";
+    char string2[] = "abdulbasit";
     // strlwr(string2);
     // strupr(string2);
     // strcat(string1, string2);
@@ -47,11 +47,14 @@ int main()
 
     // int result = strlen(string1);
     // int result2 = strcmp(string1, string2);
-    int result3 = strncmp(string1, string2, 1);
-
+    // int result3 = strncmp(string1, string2, 1);
+    strupr(string1);
+    int result2 = stricmp(string1, string2);
+    // int result3 = strnicmp(string1, string2, 1);
+    printf("%s\n", string1);
     // printf("%d\n", result3);
 
-    if (result3 == 0)
+    if (result2 == 0)
     {
         printf("\nThe string contains the same characters");
     }
