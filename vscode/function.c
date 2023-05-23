@@ -36,7 +36,8 @@ int main()
     char string2[] = "Onaade";
     // strlwr(string2);
     // strupr(string2);
-    strcat(string1, string2);
+    // strcat(string1, string2);
+    strncat(string1, string2, 2);
     printf("\n%s", string1, string2);
     return 0;
 }
