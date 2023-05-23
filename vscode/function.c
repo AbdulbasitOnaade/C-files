@@ -34,23 +34,23 @@ int main()
 
     char string1[] = "Abdulbasit";
     char string2[] = "abdulbasit";
-    // strlwr(string2);
-    // strupr(string2);
-    // strcat(string1, string2);
-    // strncat(string1, string2, 2);
-    // strcpy(string1, string2);
-    // strncpy(string1, string2, 3);
+    strlwr(string2);
+    strupr(string2);
+    strcat(string1, string2);
+    strncat(string1, string2, 2);
+    strcpy(string1, string2);
+    strncpy(string1, string2, 3);
 
-    // strset(string1, '$');
-    // strnset(string1, '$', 3);
-    // strrev(string1);
+    strset(string1, '$');
+    strnset(string1, '$', 3);
+    strrev(string1);
 
-    // int result = strlen(string1);
-    // int result2 = strcmp(string1, string2);
-    // int result3 = strncmp(string1, string2, 1);
+    int result = strlen(string1);
+    int result2 = strcmp(string1, string2);
+    int result3 = strncmp(string1, string2, 1);
     strupr(string1);
     int result2 = stricmp(string1, string2);
-    // int result3 = strnicmp(string1, string2, 1);
+    int result3 = strnicmp(string1, string2, 1);
     printf("%s\n", string1);
     // printf("%d\n", result3);
 
