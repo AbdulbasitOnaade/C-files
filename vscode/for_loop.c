@@ -33,5 +33,8 @@ do{
     {
         sum += number;
     }
-}while()
+}while(number > 1);
+
+printf("The sum is %d\n", sum);
+
 }
