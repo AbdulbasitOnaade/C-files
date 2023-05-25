@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
- int num = 0;
+    int num = 0;
     int sum = 0;
     do
     {
@@ -14,7 +14,7 @@ int main ()
         }
 
     } while (num > 1);
-    printf("The sum is %d\n", sum);   
+    printf("The sum is %d\n", sum);
 }
 int main()
 {
@@ -26,5 +26,4 @@ int main()
     //     num += 2;
     // }
     // return 0;
-    
 }
