@@ -16,14 +16,8 @@ int main()
     } while (num > 1);
     printf("The sum is %d\n", sum);
 }
+
 int main()
 {
-    // int num = 2;
-
-    // while (num <= 20)
-    // {
-    //     printf("%d\n", num);
-    //     num += 2;
-    // }
-    // return 0;
+    int n;
 }
